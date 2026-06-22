@@ -728,9 +728,9 @@ task.spawn(function()
 end)
 
 -- LOAD MENU Ở ĐÂY
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-local Window = Rayfield:CreateWindow({
+local Window = Fluent:CreateWindow({
     Name = "Noel Hub",
     LoadingTitle = "Noel Hub",
     LoadingSubtitle = "by Noel",
